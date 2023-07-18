@@ -14,96 +14,65 @@ function start() {
     res.json([
   {
     "id": 1,
-    "name": "Richard",
-    "regno": "20RP08972",
-    "tel": "0987968875",
-    "email": "gmai@gmail.com"
+    "name": "Prince",
+    "regno": "20RP088676",
+    "marks": 80
   },
   {
     "id": 2,
-    "name": "Samantha",
-    "regno": "20RP08973",
-    "tel": "0987564321",
-    "email": "samantha@example.com"
+    "name": "Alice",
+    "regno": "20RP088677",
+    "marks": 95
   },
   {
     "id": 3,
-    "name": "Michael",
-    "regno": "20RP08974",
-    "tel": "0987456123",
-    "email": "michael@gmail.com"
+    "name": "Bob",
+    "regno": "20RP088678",
+    "marks": 87
   },
   {
     "id": 4,
-    "name": "Emily",
-    "regno": "20RP08975",
-    "tel": "0987321098",
-    "email": "emily@example.com"
+    "name": "Ella",
+    "regno": "20RP088679",
+    "marks": 78
   },
   {
     "id": 5,
-    "name": "Daniel",
-    "regno": "20RP08976",
-    "tel": "0987567889",
-    "email": "daniel@gmail.com"
+    "name": "David",
+    "regno": "20RP088680",
+    "marks": 92
   },
   {
     "id": 6,
-    "name": "Sophia",
-    "regno": "20RP08977",
-    "tel": "0987123456",
-    "email": "sophia@example.com"
+    "name": "Grace",
+    "regno": "20RP088681",
+    "marks": 85
   },
   {
     "id": 7,
-    "name": "William",
-    "regno": "20RP08978",
-    "tel": "0987654321",
-    "email": "william@gmail.com"
+    "name": "Henry",
+    "regno": "20RP088682",
+    "marks": 88
   },
   {
     "id": 8,
-    "name": "Olivia",
-    "regno": "20RP08979",
-    "tel": "0987456789",
-    "email": "olivia@example.com"
+    "name": "Isabella",
+    "regno": "20RP088683",
+    "marks": 90
   },
   {
     "id": 9,
-    "name": "James",
-    "regno": "20RP08980",
-    "tel": "0987567890",
-    "email": "james@gmail.com"
+    "name": "Jacob",
+    "regno": "20RP088684",
+    "marks": 82
   },
   {
     "id": 10,
-    "name": "Ava",
-    "regno": "20RP08981",
-    "tel": "0987012345",
-    "email": "ava@example.com"
-  },
-  {
-    "id": 11,
-    "name": "John",
-    "regno": "20RP08982",
-    "tel": "0987657890",
-    "email": "john@gmail.com"
-  },
-  {
-    "id": 12,
-    "name": "Emma",
-    "regno": "20RP08983",
-    "tel": "0987012345",
-    "email": "emma@example.com"
-  },
-  {
-    "id": 13,
-    "name": "Alexander",
-    "regno": "20RP08984",
-    "tel": "0987656789",
-    "email": "alexander@gmail.com"
+    "name": "Lily",
+    "regno": "20RP088685",
+    "marks": 91
   }
-    ]
+]
 )
   })
 
