@@ -1,8 +1,11 @@
 const express = require('express');
 const app = express();
 const port = 3001; 
+const cors = require('cors');
 
 function start() {
+
+  app.use(cors());
   app.get('/', (req, res) => {
     res.send('Auth API by Richard.');
   });
