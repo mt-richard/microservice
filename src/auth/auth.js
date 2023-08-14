@@ -79,6 +79,33 @@ function start() {
 )
   })
 
+  app.get('/api/', (req, res) => {
+    res.json([
+      {
+        "id": 1,
+        "title": "Africa with Good",
+        "content": "This is the content of the first news article.",
+        "image": "./images/3.jpg",
+        "date": "2023-08-14"
+      },
+      {
+        "id": 2,
+        "title": "God with Africans",
+        "content": "This is the content of the second news article.",
+        "image": "./images/2.webp",
+        "date": "2023-08-13"
+      },
+      {
+        "id": 3,
+        "title": "All lets pray",
+        "content": "This is the content of the third news article.",
+        "image": "./images/1.jpg",
+        "date": "2023-08-12"
+      }
+    ]
+  )
+})
+
   app.listen(port, () => {
     console.log(`Server -Auth is listening on port ${port}.`);
   });
